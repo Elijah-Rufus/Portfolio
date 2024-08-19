@@ -1,0 +1,193 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  background-color: black;
+  /* border: 3px solid blue; */
+  font-family: "Poppins", sans-serif;
+}
+header {
+  width: 1345px;
+  height: 650px;
+  /* border: 1px solid blue; */
+  display: flex;
+
+}
+aside {
+  height: 650px;
+  width: 285px;
+  /* border: 3px solid blue; */
+  position: absolute;
+}
+main {
+  width: 1060px;
+  height: 650px;
+  /* border: 2px solid blue; */
+  background-color: white;
+  margin-inline-start: 285px;
+ 
+  position: absolute;
+}
+aside>div {
+  width: 189px;
+  height: 541px;
+  /* border: 1px solid blue; */
+  margin-inline-start: 48px;
+  margin-block-start: 50px;
+}
+.name {
+  color: white;
+  /* border: 1px solid blue; */
+  font-size: 35px;
+  font-weight: bold;
+  margin-block-start: 56px; 
+}
+.nav {
+  width: 92px;
+  height: 180px;
+  /* border: 1px solid blue; */
+  margin-block-start: 60px;
+  display: grid;
+  gap: 20px; 
+  line-height: 15px;
+}
+a {
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+}
+a :hover {
+  color: blue;
+  font-weight: lighter;
+}
+.logos {
+  margin-block-start: 60px;
+  /* border: 1px solid blue; */
+  width: 35px;
+}
+.copy {
+  height: 40px;
+  /* border: 1px solid blue; */
+  color: white;
+  font-size: 10px;
+  text-align: left;
+  margin-block-start: -35px;
+}
+main div:first-child {
+  margin-inline-start: 50px;
+  margin-block-start: 160px;
+  width: 397px;
+  height: 338px;
+  /* border: 1px solid blue; */
+}
+main div:nth-child(2) {
+  margin-inline-start: 475px;
+  margin-block-start: -400px;
+  width: 410px;
+  height: 440px;
+  /* border: 1px solid blue; */
+}
+.img-2 {
+  width: 145px;
+  height: 93px;
+} 
+.info {
+  margin-inline-start: -110px;
+  margin-block-start: 20px;
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  /* border: 1px solid green; */
+  font-size: 50px;
+  color: black;
+  line-height: 50px;
+}
+div span:nth-child(3) {
+  margin-inline-start: -110px;
+  margin-block-start: 180px;
+  width: 300px;
+  height: 50px;
+  /* border: 1px solid blue; */
+  font-size: 20px;
+  position: absolute;
+}
+.reach {
+  margin-inline-start: 35px;
+  margin-block-start: 150px;
+  width: 162px;
+  height: 35px;
+  /* border: 1px solid blue; */
+  background-color: black;
+}
+.r-con {
+  color: white;
+  font-size: 13px;
+  margin-inline-start: 25px;
+  margin-block-start: 8px;
+  position: absolute;
+}
+.n-h {
+  margin-inline-start: 120px;
+  margin-block-start: 10px;
+ width: 15px;
+ height: 15px;
+}
+.icon-1 {
+  margin-inline-start: 35px;
+  margin-block-start: 35px;
+  width: 20px;
+  height: 20px;
+}
+.icon-2 {
+  margin-inline-start: 120px;
+  margin-block-start: 35px;
+  width: 20px;
+  height: 20px;
+}
+.contact {
+  margin-block-start: 38px;
+  font-size: 13px;
+  position: absolute;
+  font-weight: bold;
+}
+.image {
+  width: 410px;
+  height: 440px;
+}
+.star {
+  margin-inline-start: 300px;
+  margin-block-start: -200px;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+}
+.star-2 {
+  margin-inline-start: 40px;
+  margin-block-start: -170px;
+  /* position: absolute; */
+  width: 15px;
+  height: 15px;
+}
+.Elements {
+  margin-inline-start: -70px;
+  margin-block-start: -108px;
+  width: 40px;
+  height: 60px;
+  position: absolute; 
+  /* border: 1px solid blue; */
+}
+.socials-2 {
+  margin-inline-start: 1250px;
+  margin-block-start: 230px;
+  position: absolute;
+  width: 25px;
+  /* border: 1px solid blue; */
+  
+}
+
